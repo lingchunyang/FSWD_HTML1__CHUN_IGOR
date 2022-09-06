@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="exercise1.html">Exercise1</a>
+        <a href="exercise2.html">Exercise2</a>
+        <a href="exercise3.html">Exercise3</a>
+        <a href="exercise4.html">Exercise4</a>
+        <a href="RegistrationForm.html">RegistrationForm</a>
+        <a href="advancedExercise.html">AdvancedExercise</a>
+      </nav>
+    </header>
+    <h1>Registration Form</h1>
+    <br />
+
+    <form action="destination_page.php">
+      <label for="firstname">Firstname</label>
+      <input
+        type="text"
+        name="firstname"
+        id="firstname"
+        placeholder="First Name"
+      /><br />
+      <br />
+      <label for="lastname">Lastname</label>
+      <input
+        type="text"
+        name="lastname"
+        id="lastname"
+        placeholder="Last Name"
+      />
+      <br />
+      <br />
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="HTML">HTML</option>
+        <option value="CSS" selected>CSS</option>
+        <option value="Java Script">Java Script</option>
+      </select>
+      <br />
+      <h3>Gender :</h3>
+      <input type="radio" name="gender" value="male" checked /> Male<br />
+      <input type="radio" name="gender" value="female" /> Female<br />
+      <input type="radio" name="gender" value="other" /> Other<br />
+      <br />
+      <h3>Hobbies:</h3>
+      <input type="checkbox" id="case1" name="case1" value="Programming" />
+      <label for="case1">Programming</label><br />
+      <input type="checkbox" id="case2" name="case2" value="Basketball" />
+      <label for="case2"> Basketball</label><br />
+      <input type="checkbox" id="case3" name="case3" value="Football" />
+      <label for="case3">Football</label><br />
+      <input type="checkbox" id="case4" name="case4" value="Reading Novel" />
+      <label for="case4">Reading Novel</label><br />
+      <br />
+      <label for="name">Phone:</label>
+      <input type="text" name="nameinput" id="name" placeholder="Phone:" <br />
+      <br />
+      <br />
+      <label for="message">Adress: </label><br /><br />
+      <textarea id="message" name="message" rows="5" cols="30"> </textarea>
+      <br />
+      <br />
+      <label for="Email">Email:</label>
+      <input type="text" name="mail" id="Email" />
+      <br />
+      <br />
+      <label for="pwd">Password:</label>
+      <input type="text" name="Password" id="pwd" />
+      <br />
+      <br />
+
+      <input type="submit" value="Submit" />
+      <input type="submit" value="Reset" />
+    </form>
+  </body>
+</html>
